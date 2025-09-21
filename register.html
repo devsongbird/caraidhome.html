@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>CarAid | Services</title>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  background: url("background-image.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  background: transparent;
+  border: 0.2px solid rgb(255, 255, 255);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgb(0, 0, 1);
+  text-align: center;
+  margin-top: 70px;
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+img {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  align-items: center;
+  width: 85px;
+  height: 85px;
+}
+span > ion-icon {
+  color: hsl(224, 100%, 16%);
+  font-size: 2rem;
+}
+
+h4 {
+  color: hsl(224, 100%, 16%);
+  font-size: 1rem;
+}
+
+.Registration > div > input {
+  background: transparent;
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 40px;
+  border-radius: 6px;
+  border-color: white;
+  border-width: thin;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  margin-top: 20px;
+  color: white;
+}
+
+button {
+  background: transparent;
+  color: white;
+  margin-top: 5px;
+  border-color: white;
+  padding: 3px 10px 3px 10px;
+  border-radius: 5px;
+  border-width: 2px;
+  box-shadow: rgb(232, 232, 235);
+  border-width: thin;
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 40px;
+  color: hsl(224, 100%, 16%);
+}
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <img src="CarAidlogo.png" alt="">
+  <span><ion-icon name="person-circle-sharp"></ion-icon></span>
+  <br>
+  <h4>Create a profile </h4>
+
+<div class="Registration">
+  <div class="name">
+    <input type="text" id="fullname" name="fullname" placeholder="full name">
+  </div>
+
+  <div class="email">
+    <input type="email" id="email" name="email" placeholder="email">
+  </div>
+
+  <div class="phone-number">
+    <input type="tel" id="phone" name="phone" placeholder="phone number">
+  </div>
+
+  <div class="profile-name">
+    <input type="text" id="profile" name="profile" placeholder="Choose a profile name">
+  </div>
+
+  <div class="password">
+    <input type="password" id="password" name="password" placeholder="Choose your password">
+  </div>
+ <br>
+</div>
+
+<button> Submit </button>
+
+<div class="attribution">
+    Copyright Reserved | 2025
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
