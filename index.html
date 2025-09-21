@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-Page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      header {
+        background: transparent;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: url("cars 2.jpg") no-repeat center center fixed;
+      }
+      p {
+        color: white;
+        font-size: 12px;
+        margin-left: -70px;
+      }
+      footer {
+        background: transparent;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+      }
+      .welcome {
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: -50px;
+      }
+      .navigation a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 12px;
+      }
+      .navigation a:hover {
+        text-decoration: underline;
+      }
+      .register {
+        background-color: hsl(224, 100%, 16%);
+        color: hsl(34, 100%, 50%);
+        border: 1px solid hsl(0, 0%, 100%);
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        padding: 5px;
+      }
+      .register:hover {
+        background-color: hsl(224, 100%, 16%);
+        color: white;
+      }
+      footer p {
+        color: white;
+        font-size: 10px;
+      }
+      footer a {
+        background: transparent;
+        color: hsl(224, 100%, 16%);
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+      }
+      footer a:hover {
+        background-color: #e65c00;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2 class="welcome">Welcome to CarAid</h2>
+      <p>Your one-stop solution for all car-related services.</p>
+      <nav class="navigation">
+        <a href="index.html">Home</a> | <a href="services.html">Services</a> |
+        <a href="contact.html">Contact</a>
+        <button class="register"><a href="index.html">Register</a></button>
+      </nav>
+    </header>
+
+    <footer>
+      <p>visit us at CarAid for all your car needs...</p>
+      <a href="index.html">Get Started</a>
+    </footer>
+  </body>
+</html>
